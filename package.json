@@ -2,7 +2,7 @@
   "name": "whatsapp-ytdl-bot",
   "version": "1.0.0",
   "description": "WhatsApp bot for YouTube video download on Pterodactyl",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
   },
