@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-ytdl-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for YouTube video download on Pterodactyl",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
+    "yt-dlp-wrap": "^3.3.1",
+    "ffmpeg-static": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
